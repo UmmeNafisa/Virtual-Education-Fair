@@ -1,0 +1,24 @@
+.instructor-image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.instructor-card{
+    background-image: linear-gradient(rgba(238, 177, 98, 0.685), rgba(127, 255, 212, 0.281));
+    transition: ease-out;
+    transition: ease-in-out;
+}
+.instructor-card:hover{
+    transform: scale(1.02);
+}
+.instructor-card a{
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.651);
+    font-size: 25px;
+    padding: 5px;
+
+}
+.btn-color{
+    background-color: #dda41e;
+    font-weight: 900px;
+}
